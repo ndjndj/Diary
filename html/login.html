@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/login.js"></script>
+    <title>login</title>
+</head>
+<body>
+    <header>Diary</header>
+    
+
+    <main>
+        <h1>Diary</h1>
+
+        <form action="../php/login.php" method="POST" >
+            <p>user name</p>
+            <input type="text" name="user_name" placeholder="your name" id="name">
+
+            <p>password</p>
+            <input type="password" name="password" placeholder="password" id="pass">
+
+            <input type="submit" value="login" id="login">
+
+        </form>
+
+    </main>
+
+    <script>main();</script>
+</body>
+</html>
